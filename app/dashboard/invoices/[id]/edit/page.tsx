@@ -1,7 +1,7 @@
 import Form from "@/app/ui/invoices/edit-form";
 import Breadcrumbs from "@/app/ui/breadcrumbs";
-import { fetchCustomers } from "@/app/lib/data/customer-repository";
-import { fetchInvoiceById } from "@/app/lib/data/invoice-repository";
+import { fetchCustomers } from "@/app/lib/data/repository/customer-repository";
+import { fetchInvoiceById } from "@/app/lib/data/repository/invoice-repository";
 import { notFound } from "next/navigation";
 
 export default async function Page({ params }: { params: { id: string } }) {

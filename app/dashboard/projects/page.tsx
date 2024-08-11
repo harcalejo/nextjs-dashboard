@@ -1,5 +1,5 @@
 import { lusitana } from "@/app/ui/fonts";
-import { fetchProjectsPages } from "@/app/lib/data/project-repository";
+import { fetchProjectsPages } from "@/app/lib/data/repository/project-repository";
 import { Suspense } from "react";
 import Pagination from "@/app/ui/pagination";
 import Table from "@/app/ui/projects/projects-table";

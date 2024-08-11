@@ -1,6 +1,9 @@
 import { sql } from "@vercel/postgres";
-import { CustomerField, CustomersTableType } from "./entity";
-import { formatCurrency } from "../utils";
+import {
+  CustomerField,
+  CustomersTableType,
+} from "@/app/lib/data/entity/customer";
+import { formatCurrency } from "@/app/lib/utils";
 
 export async function fetchCustomers() {
   try {

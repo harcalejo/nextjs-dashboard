@@ -1,5 +1,5 @@
 import { sql } from "@vercel/postgres";
-import { ProjectsTable } from "./entity";
+import { ProjectsTable } from "@/app/lib/data/entity/project";
 
 const ITEMS_PER_PAGE = 6;
 export async function fetchFilteredProjects(currentPage: number) {

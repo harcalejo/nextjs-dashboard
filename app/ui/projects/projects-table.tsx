@@ -1,4 +1,4 @@
-import { fetchFilteredProjects } from "@/app/lib/data/project-repository";
+import { fetchFilteredProjects } from "@/app/lib/data/repository/project-repository";
 import { UpdateProject } from "./buttons";
 
 export default async function ProjectsTable({

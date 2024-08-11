@@ -1,6 +1,10 @@
 import { sql } from "@vercel/postgres";
-import { InvoicesTable, InvoiceForm, LatestInvoiceRaw } from "./entity/invoice";
-import { formatCurrency } from "../utils";
+import {
+  InvoicesTable,
+  InvoiceForm,
+  LatestInvoiceRaw,
+} from "@/app/lib/data/entity/invoice";
+import { formatCurrency } from "@/app/lib/utils";
 
 const ITEMS_PER_PAGE = 6;
 

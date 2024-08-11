@@ -1,7 +1,7 @@
 "use server";
 
 import { z } from "zod";
-import { insertProject } from "../data/project-repository";
+import { insertProject } from "@/app/lib/data/repository/project-repository";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
